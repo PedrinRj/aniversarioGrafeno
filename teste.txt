@@ -64,7 +64,7 @@ img {
   box-shadow: 0 10px 35px rgba(0,0,0,0.7);
 }
 
-/* ===== CARTA (COM PROPORÇÕES MELHORES) ===== */
+/* ===== CARTA ===== */
 
 .letter {
   display: none;
@@ -72,17 +72,11 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.95);
-
-  width: calc(100% - 60px);       /* MAIS borda lateral */
-  max-width: 480px;
-
-  max-height: calc(100vh - 140px); /* MAIS borda em cima/baixo */
-  overflow-y: auto;               /* rolagem só dentro da carta */
-
+  width: 90%;
+  max-width: 500px;
   background: rgba(0, 0, 0, 0.65);
-  padding: 40px 34px;             /* mais respiro interno */
-  border-radius: 22px;
-
+  padding: 30px;
+  border-radius: 20px;
   animation: openLetter 1.5s ease forwards;
   box-shadow: 0 0 25px rgba(30, 60, 200, 0.4);
   z-index: 6;
@@ -202,7 +196,7 @@ img {
 
   <div class="line final">Feliz 18tãooo 🎉💙</div>
 
-  <button id="finalBtn" onclick="alert('18tãooo 😭💙 você é meu tudo!')">
+  <button id="finalBtn" onclick="alert('18tãooo 😭💙 Que fase linda da sua vida!')">
     Agora pode clicar 🎂
   </button>
 </div>
